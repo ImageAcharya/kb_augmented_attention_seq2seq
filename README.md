@@ -1,3 +1,7 @@
-# Knowledge Base-Augmented Sequence-to-Sequence Chatbot using Qwen Embeddings and LSTM Attention
+# KB-Augmented Attention Seq2Seq 
+An upgraded version that integrates a Knowledge Base for factual question answering.
 
-An upgraded chatbot that also has access to a structured knowledge base. It can answer specific factual lookups by combining its conversational ability with direct KB lookup.
+- Everything from the baseline model
+- Additional KB Attention layer
+- Loads structured data from `qa_pairs.json` and `key_value.json`
+- Special tokens added for knowledge base keys
